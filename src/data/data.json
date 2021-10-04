@@ -1,0 +1,164 @@
+[
+    {
+        "id":1,
+        "name":"Demon's Souls",
+        "year":2009,
+        "image":"https://www.mobygames.com/images/covers/l/670848-demon-s-souls-playstation-3-manual.jpg",
+        "price":60,
+        "type":"game",
+        "series":"Demon's Souls"
+    },
+    {
+        "id":2,
+        "name":"Dark Souls",
+        "year":2011,
+        "image":"https://m.media-amazon.com/images/M/MV5BMzYxYWE3MWYtNTMzYS00NmIwLWI1ZjAtNDA5ZmI5Y2I0ZTY5XkEyXkFqcGdeQXVyMTg2NzgzMDE@._V1_.jpg",
+        "price":60,
+        "type":"game",
+        "series":"Dark Souls"
+    },
+    {
+        "id":3,
+        "name":"Artorias of the Abyss",
+        "year":2012,
+        "image":"https://www.mobygames.com/images/covers/l/313807-dark-souls-artorias-of-the-abyss-playstation-3-front-cover.jpg",
+        "price":15,
+        "type":"DLC",
+        "series":"Dark Souls"
+    },
+    {
+        "id":4,
+        "name":"Dark Souls: Prepare To Die Edition",
+        "year":2012,
+        "image":"https://nexusgames.to/wp-content/uploads/2021/02/Dark-Souls-Prepare-To-Die-Edition-Free-Download-By-Nexusgames.to-1.jpg",
+        "price":60,
+        "type":"game",
+        "series":"Dark Souls"
+    },
+    {
+        "id":5,
+        "name":"Dark Souls II",
+        "year":2014,
+        "image":"https://i.etsystatic.com/6824854/r/il/f7ea4a/1099245251/il_570xN.1099245251_6yg7.jpg",
+        "price":60,
+        "type":"game",
+        "series":"Dark Souls II"
+    },
+    {
+        "id":6,
+        "name":"Crown of the Sunken King",
+        "year":2014,
+        "image":"https://cdn.akamai.steamstatic.com/steam/apps/271942/capsule_616x353.jpg?t=1580375607",
+        "price":15,
+        "type":"DLC",
+        "series":"Dark Souls II"
+    },
+    {
+        "id":7,
+        "name":"Crown of the Old Iron King",
+        "year":2014,
+        "image":"https://cdn.akamai.steamstatic.com/steam/apps/271943/capsule_616x353.jpg?t=1580374880",
+        "price":15,
+        "type":"DLC",
+        "series":"Dark Souls II"
+    },
+    {
+        "id":8,
+        "name":"Crown of the Ivory King",
+        "year":2014,
+        "image":"https://cdn.akamai.steamstatic.com/steam/apps/271944/capsule_616x353.jpg?t=1580375067",
+        "price":15,
+        "type":"DLC",
+        "series":"Dark Souls II"
+    },
+    {
+        "id":9,
+        "name":"Dark Souls II: Scholar of the First Sin",
+        "year":2015,
+        "image":"https://image.api.playstation.com/vulcan/img/rnd/202010/1216/oSOVmvoekCf9ASaAItqfKvpP.png",
+        "price":60,
+        "type":"game",
+        "series":"Dark Souls II"
+    },
+    {
+        "id":10,
+        "name":"Bloodborne",
+        "year":2015,
+        "image":"https://upload.wikimedia.org/wikipedia/en/6/68/Bloodborne_Cover_Wallpaper.jpg",
+        "price":60,
+        "type":"game",
+        "series":"Bloodborne"
+    },
+    {
+        "id":11,
+        "name":"The Old Hunters",
+        "year":2015,
+        "image":"https://m.media-amazon.com/images/M/MV5BMWQwZTQxMGUtZmQ5NS00YmZiLWIyOGQtZjg5ZmE4MzQyYTAxXkEyXkFqcGdeQXVyMTQyNTU3NTg@._V1_.jpg",
+        "price":15,
+        "type":"DLC",
+        "series":"Bloodborne"
+    },
+    {
+        "id":12,
+        "name":"Dark Souls III",
+        "year":2016,
+        "image":"https://www.giantbomb.com/a/uploads/scale_small/8/87790/3081870-box_ds3.jpg",
+        "price":60,
+        "type":"game",
+        "series":"Dark Souls III"
+    },
+    {
+        "id":13,
+        "name":"Ashes of Ariandel",
+        "year":2016,
+        "image":"https://s2.gaming-cdn.com/images/products/4384/orig/game-steam-dark-souls-3-ashes-of-ariandel-cover.jpg",
+        "price":15,
+        "type":"DLC",
+        "series":"Dark Souls III"
+    },
+    {
+        "id":14,
+        "name":"The Ringed City",
+        "year":2017,
+        "image":"https://cdn-prod.scalefast.com/public/assets/user/122595/image/abdde21c0826edccbe35c19b30a89088.jpg",
+        "price":15,
+        "type":"DLC",
+        "series":"Dark Souls III"
+    },
+    {
+        "id":15,
+        "name":"Dark Souls III: The Fire Fades Edition",
+        "year":2017,
+        "image":"https://cdn-products.eneba.com/resized-products/gg2yRWq2g6TYTBO7lO5p2XkRalIS0ij-Ho6cpjKiElc_350x200_1x-0.jpeg",
+        "price":60,
+        "type":"game",
+        "series":"Dark Souls III"
+    },
+    {
+        "id":16,
+        "name":"Dark Souls: Remastered",
+        "year":2018,
+        "image":"https://s1.gaming-cdn.com/images/products/2364/orig/game-steam-dark-souls-remastered-cover.jpg",
+        "price":60,
+        "type":"game",
+        "series":"Dark Souls"
+    },
+    {
+        "id":16,
+        "name":"Sekiro: Shadows Die Twice",
+        "year":2019,
+        "image":"https://uf.cari.com.my/forumx/cforum/forum/201806/15/091634frsicc79iscfupai.jpg",
+        "price":60,
+        "type":"game",
+        "series":"Sekiro"
+    },
+    {
+        "id":17,
+        "name":"Demon's Souls",
+        "year":2020,
+        "image":"https://upload.wikimedia.org/wikipedia/ru/thumb/1/11/Demons_Souls_remake_cover_art.jpg/480px-Demons_Souls_remake_cover_art.jpg",
+        "price":60,
+        "type":"game",
+        "series":"Demon's Souls"
+    }
+]

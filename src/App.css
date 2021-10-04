@@ -1,38 +1,365 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: FromFont;
+  src: url(assets/fonts/ErasITCbyBT-Bold.otf);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: FromFont;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/* HEADER................................. */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#header {
+  border-bottom: 2px solid grey;
+  background-color: black;
+  position: sticky;
+  top: 0;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+}
+
+#headerLogo {
+  height: 100px;
+}
+
+.cartBtn {
+  font-family: FromFont;
+  cursor: pointer;
+  margin: 5px;
+  font-size: 10px;
+  font-weight: bold;
+  height: 40px;
+  width: 85px;
+  background-color: white;
+  border: none;
+  border-radius: 15px;
+}
+
+#cartBtn {
+  font-family: FromFont;
+  position: absolute;
+  top: 4%;
+  left: 310px;
+  font-size: 15px;
+  width: 150px;
+}
+
+.cartBtn:hover {
+  transition: 0.5s;
+  background-color: grey;
+}
+
+#filterGames {
+  border-bottom: 2px solid grey;
+  text-align: center;
+  margin: 50px;
+  padding: 20px;
+  display: row;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.pageHeader {
+  color: white;
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 30px;
+}
+
+/* GAMES WRAPPER.......................... */
+
+#gameWrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.gameArticle {
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  border-radius: 30px;
+  color: white;
+  text-align: center;
+  margin: 20px 20px 50px 20px;
+  width: 200px;
+  height: 555px;
+}
+
+.gameArticle:hover {
+  transition: 0.5s;
+  background-color: rgb(40, 40, 40);
+}
+
+.gameArticle:hover .gameHeader {
+  display: block;
+}
+
+.gameHeader {
+  padding: 0px 3px 0px 3px;
+  font-size: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.gameImg {
+  border-top: 0.1px solid grey;
+  border-bottom: 0.1px solid grey;
+  width: 200px;
+  height: 300px;
+}
+
+.gamePrice {
+  font-size: 25px;
+}
+
+.addGame {
+  font-family: FromFont;
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  height: 30px;
+  width: 100px;
+}
+
+.addGame:hover {
+  cursor: pointer;
+}
+
+#pagination {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.pagination {
+  position: absolute;
+  margin: 1900px auto 10px 100px;
+  display: flex;
+  list-style: none;
+  outline: none;
+}
+.pagination > .active > a {
+  background-color: white;
+
+  color: black;
+}
+.pagination > li > a {
+  padding: 5px 10px;
+  outline: none;
+  cursor: pointer;
+}
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  background-color: white;
+
+  outline: none;
+}
+.pagination > li > a,
+.pagination > li > span {
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.pagination > li:first-child > a,
+.pagination > li:first-child > span,
+.pagination > li:last-child > a,
+.pagination > li:last-child > span {
+  border-radius: unset;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* FOOTER................................ */
+
+#footer {
+  background-color: black;
+  border-top: 2px solid grey;
+  color: white;
+  font-size: 10px;
+  height: 40px;
+  margin-top: 100px;
+  text-align: center;
+  position: relative;
+}
+
+#footer p {
+  position: absolute;
+  bottom: 0;
+  margin-left: 5px;
+}
+
+/* CART PAGE............................... */
+
+#cartPlaceholder {
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#cartTable{
+  align-items: center;
+  margin: 80px;
+  border-collapse: collapse;
+}
+
+#cartTable th{
+  border-bottom: 2px solid grey;
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+#cartTable td{
+  border-bottom: 2px solid grey;
+  padding: 5px;
+}
+
+.theadFirst{
+  text-align: left;
+}
+
+.number{
+  width: 50px;
+  height: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+  border: 2px solid grey;
+}
+
+.removeBtn{
+  cursor: pointer;
+  font-family: FromFont;
+  color: black;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  height: 30px;
+  width: 100px;
+}
+
+#priceTotal{
+  font-size: 30px;
+}
+
+.cartArticle {
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  border-radius: 30px;
+  color: white;
+  text-align: center;
+  margin: 20px 20px 50px 20px;
+  width: 200px;
+  height: 555px;
+}
+
+.cartArticle:hover .gameHeader {
+  display: block;
+}
+
+.cartImg {
+  border-top: 0.1px solid grey;
+  border-bottom: 0.1px solid grey;
+  width: 100px;
+  height: 150px;
+}
+
+#total {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+
+#purchaseBtn {
+  font-family: FromFont;
+  margin-top: 80px;
+  margin-left: 170px;
+  font-size: 15px;
+  width: 150px;
+}
+
+@media only screen and (min-width: 768px) {
+  .gameArticle {
+    width: 200px;
+    margin: 50px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .gameImg {
+    width: 200px;
+  }
+
+  .cartBtn {
+    cursor: pointer;
+    margin: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    height: 40px;
+    width: 150px;
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+  }
+
+  .cartArticle {
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+    height: 250px;
+  }
+
+  .cartImg {
+    width: 60px;
+    height: 80px;
+  }
+
+  #purchaseBtn {
+    margin-left: 685px;
+  }
+
+  #cartBtn {
+    position: absolute;
+    left: 87vw;
+  }
+
+  #cartTable{
+    margin-bottom: 80px;
+    border-collapse: collapse;
+  }
+  
+  #cartTable th{
+    border-bottom: 2px solid grey;
+    border-collapse: collapse;
+    padding: 30px;
+  }
+  
+  #cartTable td{
+    border-bottom: 2px solid grey;
+    padding: 30px;
+  }
+  
+  .theadFirst{
+    text-align: left;
+  }
+  
+
+  .pagination {
+    margin: 700px auto auto 620px;
   }
 }
+
