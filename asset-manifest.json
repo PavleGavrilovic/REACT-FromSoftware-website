@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.7f8dacae.chunk.css",
-    "main.js": "/my-app/static/js/main.48e08046.chunk.js",
-    "main.js.map": "/my-app/static/js/main.48e08046.chunk.js.map",
-    "runtime-main.js": "/my-app/static/js/runtime-main.cc48029d.js",
-    "runtime-main.js.map": "/my-app/static/js/runtime-main.cc48029d.js.map",
-    "static/js/2.9bc18cf1.chunk.js": "/my-app/static/js/2.9bc18cf1.chunk.js",
-    "static/js/2.9bc18cf1.chunk.js.map": "/my-app/static/js/2.9bc18cf1.chunk.js.map",
-    "static/js/3.b259da7a.chunk.js": "/my-app/static/js/3.b259da7a.chunk.js",
-    "static/js/3.b259da7a.chunk.js.map": "/my-app/static/js/3.b259da7a.chunk.js.map",
-    "index.html": "/my-app/index.html",
-    "static/css/main.7f8dacae.chunk.css.map": "/my-app/static/css/main.7f8dacae.chunk.css.map",
-    "static/js/2.9bc18cf1.chunk.js.LICENSE.txt": "/my-app/static/js/2.9bc18cf1.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/my-app/static/media/ErasITCbyBT-Bold.c626eefb.otf",
-    "static/media/From_Logo.1bbbb1eb.jpg": "/my-app/static/media/From_Logo.1bbbb1eb.jpg"
+    "main.css": "/REACT-FromSoftware-website/static/css/main.0dba47fe.chunk.css",
+    "main.js": "/REACT-FromSoftware-website/static/js/main.48e08046.chunk.js",
+    "main.js.map": "/REACT-FromSoftware-website/static/js/main.48e08046.chunk.js.map",
+    "runtime-main.js": "/REACT-FromSoftware-website/static/js/runtime-main.a36c0869.js",
+    "runtime-main.js.map": "/REACT-FromSoftware-website/static/js/runtime-main.a36c0869.js.map",
+    "static/js/2.9bc18cf1.chunk.js": "/REACT-FromSoftware-website/static/js/2.9bc18cf1.chunk.js",
+    "static/js/2.9bc18cf1.chunk.js.map": "/REACT-FromSoftware-website/static/js/2.9bc18cf1.chunk.js.map",
+    "static/js/3.b259da7a.chunk.js": "/REACT-FromSoftware-website/static/js/3.b259da7a.chunk.js",
+    "static/js/3.b259da7a.chunk.js.map": "/REACT-FromSoftware-website/static/js/3.b259da7a.chunk.js.map",
+    "index.html": "/REACT-FromSoftware-website/index.html",
+    "static/css/main.0dba47fe.chunk.css.map": "/REACT-FromSoftware-website/static/css/main.0dba47fe.chunk.css.map",
+    "static/js/2.9bc18cf1.chunk.js.LICENSE.txt": "/REACT-FromSoftware-website/static/js/2.9bc18cf1.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/REACT-FromSoftware-website/static/media/ErasITCbyBT-Bold.c626eefb.otf",
+    "static/media/From_Logo.1bbbb1eb.jpg": "/REACT-FromSoftware-website/static/media/From_Logo.1bbbb1eb.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.cc48029d.js",
+    "static/js/runtime-main.a36c0869.js",
     "static/js/2.9bc18cf1.chunk.js",
-    "static/css/main.7f8dacae.chunk.css",
+    "static/css/main.0dba47fe.chunk.css",
     "static/js/main.48e08046.chunk.js"
   ]
 }
