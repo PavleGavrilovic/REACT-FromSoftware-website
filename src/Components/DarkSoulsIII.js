@@ -14,7 +14,7 @@ class DarkSoulsIII extends Component{
 
     componentDidMount() {
         fetch(
-          "https://raw.githubusercontent.com/PavleGavrilovic/FromSoftware-Games/main/data/data.json"
+          "https://raw.githubusercontent.com/PavleGavrilovic/REACT-FromSoftware-website/master/src/data/data.json"
         )
           .then((res) => res.json())
           .then((result) => {

@@ -19,7 +19,7 @@ class Pagination extends Component {
   receivedData() {
     axios
       .get(
-        "https://raw.githubusercontent.com/PavleGavrilovic/FromSoftware-Games/main/data/data.json"
+        "https://raw.githubusercontent.com/PavleGavrilovic/REACT-FromSoftware-website/master/src/data/data.json"
       )
       .then((res) => {
         const data = res.data;
