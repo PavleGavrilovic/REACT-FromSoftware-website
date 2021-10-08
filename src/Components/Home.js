@@ -111,7 +111,7 @@ class Pagination extends Component {
 render() {
     return (
         <div id="pagination">
-           {this.state.postData}
+           <div id="items">{this.state.postData}</div>
             <ReactPaginate
                 previousLabel={"prev"}
                 nextLabel={"next"}
@@ -124,6 +124,7 @@ render() {
                 containerClassName={"pagination"}
                 subContainerClassName={"pages pagination"}
                 activeClassName={"active"}/>
+            
         </div>
 
     )

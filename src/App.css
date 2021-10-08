@@ -86,7 +86,7 @@ body {
   border-radius: 30px;
   color: white;
   text-align: center;
-  margin: 20px 20px 50px 20px;
+  margin: 20px 15px 50px 20px;
   width: 200px;
   height: 555px;
 }
@@ -136,15 +136,22 @@ body {
   cursor: pointer;
 }
 
+
 #pagination {
+  display: flex;
+  flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+#items{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .pagination {
-  position: absolute;
-  margin: 1900px auto 10px 100px;
   display: flex;
   list-style: none;
   outline: none;
@@ -355,11 +362,6 @@ body {
   
   .theadFirst{
     text-align: left;
-  }
-  
-
-  .pagination {
-    margin: 700px auto auto 620px;
   }
 }
 

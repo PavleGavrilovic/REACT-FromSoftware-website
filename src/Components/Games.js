@@ -119,21 +119,22 @@ class Pagination extends Component {
 }
 render() {
     return (
-        <div id="pagination">
-            {this.state.postData}
-            <ReactPaginate
-                previousLabel={"prev"}
-                nextLabel={"next"}
-                breakLabel={"..."}
-                breakClassName={"break-me"}
-                pageCount={this.state.pageCount}
-                marginPagesDisplayed={2}
-                pageRangeDisplayed={5}
-                onPageChange={this.handlePageClick}
-                containerClassName={"pagination"}
-                subContainerClassName={"pages pagination"}
-                activeClassName={"active"}/>
-        </div>
+      <div id="pagination">
+      <div id="items">{this.state.postData}</div>
+       <ReactPaginate
+           previousLabel={"prev"}
+           nextLabel={"next"}
+           breakLabel={"..."}
+           breakClassName={"break-me"}
+           pageCount={this.state.pageCount}
+           marginPagesDisplayed={2}
+           pageRangeDisplayed={5}
+           onPageChange={this.handlePageClick}
+           containerClassName={"pagination"}
+           subContainerClassName={"pages pagination"}
+           activeClassName={"active"}/>
+       
+   </div>
 
     )
 }
